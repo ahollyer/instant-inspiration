@@ -27,15 +27,18 @@ var randomQuote = [
    author: "Bruce Lee"},
 ];
 
-var quotePicker = 0;
-
 $(document).ready(function () {
+  var quotePicker = 0;
+
   $("#getQuote").on("click", function() {
 
     quotePicker = Math.floor(Math.random() * randomQuote.length);
 
     $(".quote").html(randomQuote[quotePicker].quote);
     $(".author").html(randomQuote[quotePicker].author);
-  });
+  })
 
-})
+  $("#twitter-share").on("click", function() {
+    
+  })
+});
