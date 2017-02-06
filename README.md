@@ -14,13 +14,13 @@ This is one of my first websites. I'm really excited to expand this thing and go
 * Was able to troubleshoot an issue with the developer tools console! Woohoo (my JS was loading before jQuery, in case you were wondering)
 
 ####Things to Improve:
-* Add "Share to Twitter" button
-* Add "Share to Facebook" button
-* Add flavors (themed layout + quotes):
- * Tolkien
- * Video Games
- * Sci Fi
- * Zen
+- [x] ~~Add "Share to Twitter" button~~ Done 2/5/17
+- [ ] Add "Share to Facebook" button
+- [ ] Add flavors (themed layout + quotes):
+ - [ ] Tolkien
+ - [ ] Video Games
+ - [ ] Sci Fi
+ - [ ] Zen
 
 I'm always looking to learn new things and meet new people. Feel free to contact me if you want to learn together!
 
