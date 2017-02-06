@@ -29,16 +29,18 @@ var randomQuote = [
 
 $(document).ready(function () {
   var quotePicker = 0;
+  var currentQuote = "Doubt kills more dreams than failure ever will. - Unknown";
 
   $("#getQuote").on("click", function() {
 
     quotePicker = Math.floor(Math.random() * randomQuote.length);
+    currentQuote = randomQuote[quotePicker].quote + " -" + randomQuote[quotePicker].author;
 
     $(".quote").html(randomQuote[quotePicker].quote);
     $(".author").html(randomQuote[quotePicker].author);
   })
 
   $("#twitter-share").on("click", function() {
-    
+    window.open("https://twitter.com/intent/tweet?text="+currentQuote)
   })
 });
