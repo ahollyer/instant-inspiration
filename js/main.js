@@ -38,9 +38,20 @@ $(document).ready(function () {
 
     $(".quote").html(randomQuote[quotePicker].quote);
     $(".author").html(randomQuote[quotePicker].author);
+
+    $('meta[property="og:description"]').attr('content').html(currentQuote);
+
   })
 
   $("#twitter-share").on("click", function() {
     window.open("https://twitter.com/intent/tweet?text="+currentQuote)
+
+  $("#fb-publish").on("click", function() {
+    FB.ui({
+      method: 'feed',
+      link: 'http://ahollyer.github.io/instant-inspiration',
+      caption: 'Example here',
+      }, function(response){});
+    });
   })
 });
