@@ -1,6 +1,14 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Facebook open-graph tags-->
+  <meta property="og:url"           content="http://ahollyer.github.io/instant-inspiration" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Instant Inspiration" />
+  <meta property="og:description"   content="Doubt kills more dreams than failure ever will. - Unknown" />
+</head>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://use.fontawesome.com/0b323d712f.js"></script>
@@ -8,6 +16,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
   <div class="container">
 
     <div class="row">
@@ -19,7 +38,10 @@
     <div class="row actions">
       <div class ="col-xs-3 col-xs-offset-2">
         <button class="btn btn-info" id="twitter-share"><i class="fa fa-twitter fa-fw"></i></button>
-        <button class="btn btn-primary"><i class="fa fa-facebook fa-fw"></i></button>
+
+
+        <div class="fb-share-button" data-href="http://ahollyer.github.io/instant-inspiration" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fahollyer.github.io%2Finstant-inspiration&amp;src=sdkpreparse">        <button class="btn btn-primary"><i class="fa fa-facebook fa-fw"></i></button></a></div>
+
       </div>
       <div class="col-xs-5 text-right">
         <button class="btn btn-success" id="getQuote">New Quote</button>
@@ -42,5 +64,6 @@
   </div><!-- .container -->
 
   <script src="js/main.js" defer></script>
+
 </body>
 </html>
