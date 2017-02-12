@@ -41,13 +41,5 @@ $(document).ready(function () {
 
   $("#twitter-share").on("click", function() {
     window.open("https://twitter.com/intent/tweet?text="+currentQuote)
-
-  $("#fb-publish").on("click", function() {
-    FB.ui({
-      method: 'feed',
-      link: 'http://ahollyer.github.io/instant-inspiration',
-      caption: currentQuote,
-      }, function(response){});
-    });
   })
 });

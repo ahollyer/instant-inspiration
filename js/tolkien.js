@@ -13,7 +13,7 @@ var randomQuote = [
   "And though in all lands love is now mingled with grief, it grows perhaps the greater.",
   "I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.",
   "It is not our part to master all the tides of the world, but to do what is in us for the succor of those years wherein we are set, uprooting the evil the fields that we know, so that those who live after may have clean earth to till. What weather they shall have is not ours to rule.",
-  "Deeds will not be less valiant because they are unpraised",
+  "Deeds will not be less valiant because they are unpraised.",
 ];
 
 $(document).ready(function () {
@@ -29,13 +29,5 @@ $(document).ready(function () {
 
   $("#twitter-share").on("click", function() {
     window.open("https://twitter.com/intent/tweet?text="+currentQuote)
-
-  $("#fb-publish").on("click", function() {
-    FB.ui({
-      method: 'feed',
-      link: 'http://ahollyer.github.io/instant-inspiration',
-      caption: currentQuote,
-      }, function(response){});
-    });
   })
 });

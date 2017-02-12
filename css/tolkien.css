@@ -1,9 +1,9 @@
 body {
   padding-top: 50px;
-  font-family: Felipa, serif;
+  font-family: Tangerine, serif;
   color: #ccac00;
   text-shadow: 1px 1px 2px #b78626;
-  background-color: #191500;
+  background-color: #231b01;
 }
 h1 {
   font-family: Tangerine, serif;
@@ -17,32 +17,25 @@ p {
   padding: 50px;
 }
 .quote {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 .fa {
-  font-size: 1.5em;
+  font-size: 1.5em !important;
 }
-.btn-success {
-  font-size: 1.4em;
-}
-.content {
-}
-.btn-info, .btn-primary {
-  height: 50px;
-  width: 50px;
-  color: #ccac00;
-  background-color: #191500;
-  border: 3px solid #b78626;
-  border-radius: 100%;
-  box-shadow: 1px 1px 3px 1px #b78626;
-  margin: 4px;
-}
-.btn-info:hover, .btn-primary:hover {
-  color: #ccac00;
-  background-color: #121211;
+.btn-info {
+  height: 60px;
+  width: 60px;
+  color: #b78626;
+  background-color: #231b01;
   border: 2px solid gold;
   border-radius: 100%;
   box-shadow: 3px 2px 3px 2px #b78626;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+  color: #b78626;
+  background-color: #231b01;
+  border: 3px solid gold;
+  transform: rotate(-360deg);
 }
 .btn-text {
   font-size: 15px;
@@ -51,7 +44,7 @@ p {
 /* Nav styles */
 .navbar {
 	margin-bottom: 0 !important;
-  background-color: #191500;
+  background-color: #231b01;
 	border: 0;
 }
 .navbar-brand {

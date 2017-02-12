@@ -9,17 +9,21 @@ h1 {
   font-size: 4em;
   text-transform: uppercase;
 }
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
 .actions {
   padding: 50px;
 }
 .quote {
   font-size: 2em;
 }
-.fa {
-  font-size: 1.5em;
-}
 .btn-success {
-  font-size: 1.4em;
+  font-size: 1em;
+}
+.btn-info {
+  font-size: 1.5em;
 }
 /* Nav styles */
 .navbar {
