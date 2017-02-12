@@ -13,6 +13,10 @@ h1 {
 p {
   font-size: 1em;
 }
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
 .actions {
   padding: 50px;
 }
