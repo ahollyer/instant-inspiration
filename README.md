@@ -17,9 +17,9 @@ This is one of my first websites. I'm really excited to expand this thing and go
 - [x] ~~Add "Share to Twitter" button~~ Done 2/5/17
 - [ ] Add "Share to Facebook" button
 - [ ] Add flavors (themed layout + quotes):
- - [ ] Tolkien
+ - [x] ~~Tolkien~~ Done 2/12/17
  - [ ] Video Games
- - [ ] Sci Fi
+ - [x] ~~Sci Fi~~ Done 2/12/17
  - [ ] Zen
 
 I'm always looking to learn new things and meet new people. Feel free to contact me if you want to learn together!
