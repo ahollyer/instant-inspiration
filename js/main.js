@@ -15,7 +15,7 @@ var randomQuote = [
    author: "Unknown"},
   {quote: "Stop wishing for it, and start working for it.",
    author: "Unknown"},
-  {quote: "The question isn't who is going to let me; it's who is going to stop me.",
+  {quote: "The question isn't who is going to let me. It's who is going to stop me.",
    author: "Ayn Rand"},
   {quote: "If you can't explain it simply, you don't understand it well enough.",
    author: "Albert Einstein"},
@@ -32,14 +32,10 @@ $(document).ready(function () {
   var currentQuote = "Doubt kills more dreams than failure ever will. - Unknown";
 
   $("#getQuote").on("click", function() {
-
     quotePicker = Math.floor(Math.random() * randomQuote.length);
     currentQuote = randomQuote[quotePicker].quote + " -" + randomQuote[quotePicker].author;
-
     $(".quote").html(randomQuote[quotePicker].quote);
     $(".author").html(randomQuote[quotePicker].author);
-
-    $('meta[property="og:description"]').attr('content').html(currentQuote);
 
   })
 
@@ -50,7 +46,7 @@ $(document).ready(function () {
     FB.ui({
       method: 'feed',
       link: 'http://ahollyer.github.io/instant-inspiration',
-      caption: 'Example here',
+      caption: currentQuote,
       }, function(response){});
     });
   })

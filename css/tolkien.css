@@ -1,0 +1,125 @@
+body {
+  padding-top: 50px;
+  font-family: Felipa, serif;
+  color: #ccac00;
+  text-shadow: 1px 1px 2px #b78626;
+  background-color: #191500;
+}
+h1 {
+  font-family: Tangerine, serif;
+  font-size: 4em;
+  color: #b78626;
+}
+p {
+  font-size: 1em;
+}
+.actions {
+  padding: 50px;
+}
+.quote {
+  font-size: 2.5em;
+}
+.fa {
+  font-size: 1.5em;
+}
+.btn-success {
+  font-size: 1.4em;
+}
+.content {
+}
+.btn-info, .btn-primary {
+  height: 50px;
+  width: 50px;
+  color: #ccac00;
+  background-color: #191500;
+  border: 3px solid #b78626;
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px 1px #b78626;
+  margin: 4px;
+}
+.btn-info:hover, .btn-primary:hover {
+  color: #ccac00;
+  background-color: #121211;
+  border: 2px solid gold;
+  border-radius: 100%;
+  box-shadow: 3px 2px 3px 2px #b78626;
+}
+.btn-text {
+  font-size: 15px;
+}
+
+/* Nav styles */
+.navbar {
+	margin-bottom: 0 !important;
+  background-color: #191500;
+	border: 0;
+}
+.navbar-brand {
+  font-family: Tangerine, serif;
+  color: #b78626 !important;
+  font-size: 3em;
+}
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+a {
+	color: #b78626 !important;
+  font-size: 1.5em;
+}
+a:hover {
+	color: sienna !important;
+	text-decoration: none;
+}
+
+/* Eye of Sauron icon */
+.ic {
+  font-size: 75px;
+  color: transparent;
+  user-select: none;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: visible;
+  vertical-align: top;
+  font-style: normal;
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+}
+.ic:before, .ic:after {
+/* BACKGROUND COLOR */
+  background-color: #000;
+  border-color: #000;
+  color: #000;
+  content: '';
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+}
+.ic.ic-eye::before {
+  width: 0.75em;
+  height: 0.75em;
+  top: 0.125em;
+  left: 0.125em;
+  background: radial-gradient(#d35400, #913700, #f39c12);
+  border-radius: 0 70% 0 70%;
+  transform: rotate(-45deg);
+  box-shadow: 0 0 10px 3px #b78626;
+}
+.ic.ic-eye:hover::before {
+  box-shadow: 0 0 6px 3px #f39c12;
+}
+.ic.ic-eye::after {
+  width: 0.1em;
+  height: 0.5em;
+  left: 0.45em;
+  top: 0.25em;
+  border: 0.01em solid #b78626;
+  border-radius: 99% 0 99% 0;
+  transform: rotate(-8deg);
+  background-color: #191500;
+  box-shadow: 0 0 6px 1px #b78626;
+  }
+.ic.ic-eye:hover::after {
+  box-shadow: 0 0 6px 3px #b78626;
+}
