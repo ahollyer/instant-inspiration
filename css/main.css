@@ -9,10 +9,6 @@ h1 {
   font-size: 4em;
   text-transform: uppercase;
 }
-img {
-  max-width: 100% !important;
-  height: auto !important;
-}
 .actions {
   padding: 50px;
 }

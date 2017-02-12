@@ -1,0 +1,61 @@
+body {
+  overflow-x: hidden;
+  font-family: VT323, monospace;
+  background-color: #717171;
+  color: #77f451;
+}
+h1 {
+  font-family: VT323, monospace;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+.actions {
+  padding: 50px;
+}
+.quote {
+  font-size: 2em;
+}
+.author {
+  font-size: 1.5em;
+}
+.btn-success {
+  font-size: 1.5em;
+  background-color: #f7472f;
+  border: 1px outset #717171;
+  border-radius: 0;
+}
+.btn-success:hover {
+  background-color: #f7472f;
+  border: 1px inset #717171;
+}
+.btn-info {
+  font-size: 1.8em;
+  background-color: #35b0fe;
+  border: 1px outset #717171;
+  border-radius: 0;
+}
+.btn-info:hover {
+  background-color: #35b0fe;
+  border: 1px inset #717171;
+}
+/* Nav styles */
+.navbar {
+	margin-bottom: 0 !important;
+  background-color: #717171;
+	border: 0;
+}
+.navbar-brand {
+  font-family: VT323, monospace;
+  color: #77f451 !important;
+  font-size: 24px;
+}
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+a {
+	color: #77f451 !important;
+}
+a:hover {
+	color: #deeca9 !important;
+	text-decoration: none;
+}
