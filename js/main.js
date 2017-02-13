@@ -29,7 +29,7 @@ var randomQuote = [
 
 $(document).ready(function () {
   var quotePicker = 0;
-  var currentQuote = "Doubt kills more dreams than failure ever will. - Unknown";
+  var currentQuote = "Doubt kills more dreams than failure ever will. - Suzy Kassem";
 
   $("#getQuote").on("click", function() {
     quotePicker = Math.floor(Math.random() * randomQuote.length);
