@@ -1,8 +1,6 @@
 body {
   overflow-x: hidden;
   font-family: Bitter, serif;
-  background-color: beige;
-  color: saddlebrown;
   padding-bottom: 100px;
 }
 h1 {
@@ -17,7 +15,7 @@ h1 {
   font-size: 2em;
 }
 .btn-success {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .btn-info {
   font-size: 1.5em;
@@ -25,21 +23,12 @@ h1 {
 /* Nav styles */
 .navbar {
 	margin-bottom: 0 !important;
-  background-color: beige;
 	border: 0;
 }
 .navbar-brand {
   font-family: Barrio, serif;
-  color: saddlebrown !important;
   font-size: 24px;
 }
 .navbar-container {
     padding: 20px 0 20px 0;
-}
-a {
-	color: saddlebrown !important;
-}
-a:hover {
-	color: sienna !important;
-	text-decoration: none;
 }
